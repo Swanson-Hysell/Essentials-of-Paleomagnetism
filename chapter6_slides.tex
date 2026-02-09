@@ -1,0 +1,564 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+\usefonttheme{professionalfonts}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertshortauthor
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+      \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+      \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+      \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{textcomp}
+
+\graphicspath{{PDFfigures/}}
+
+\title[Ch.~6: Magnetic Mineralogy]{Chapter 6: Magnetic Mineralogy}
+\subtitle{Essentials of Paleomagnetism}
+\author{Based on Tauxe et al.}
+\date{}
+
+\begin{document}
+
+% ------------------------------------------------------------------
+\begin{frame}
+\titlepage
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+% ==================================================================
+\section{Introduction}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Why Magnetic Mineralogy?}
+
+\begin{itemize}
+  \item Every paleomagnetic study must identify \textbf{what carries the remanence} and \textbf{how the rock was magnetized}
+  \item Iron is the most abundant transition element in the solar system
+  \item Key magnetic mineral groups:
+  \begin{itemize}
+    \item \textbf{Iron-oxides}: magnetite, maghemite, hematite
+    \item \textbf{Iron-oxyhydroxides}: goethite, ferrihydrite
+    \item \textbf{Iron-sulfides}: greigite, pyrrhotite
+  \end{itemize}
+  \item Titanium substitution profoundly alters magnetic properties
+\end{itemize}
+
+\end{frame}
+
+% ==================================================================
+\section{Iron-Oxide Solid Solutions}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Solid Solutions in Iron-Oxides}
+
+\begin{itemize}
+  \item \textbf{Solid solution}: one or more atom types partly substituted without changing crystal structure
+  \item Ti$^{4+}$ commonly substitutes for Fe in iron oxides
+  \item Ti$^{4+}$ has \textbf{no unpaired spins} $\rightarrow$ changes magnetic properties
+  \item Two critical solid solution series:
+  \begin{enumerate}
+    \item \textbf{Ulv\"ospinel--Magnetite} (titanomagnetites)
+    \item \textbf{Ilmenite--Hematite} (titanohematites)
+  \end{enumerate}
+  \item Both crystallize at $\sim$1300$^{\circ}$C
+  \item Complete solid solution above $\sim$600$^{\circ}$C (titanomagnetites) and $\sim$800$^{\circ}$C (titanohematites)
+\end{itemize}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Phase Diagrams for FeTi Oxides}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{solidsolution.pdf}
+  \caption{Phase diagrams showing exsolution with cooling.
+    a) Titanomagnetite series. b) Titanohematite series.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Exsolution}
+
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+  \item As temperature drops below the solvus, intermediate compositions become unstable
+  \item Cation diffusion produces Ti-rich and Ti-poor \textbf{lamellae}
+  \item Rapid cooling $\rightarrow$ metastable compositions preserved
+  \item Paleomagnetic importance:
+  \begin{itemize}
+    \item Different compositions = different magnetic properties
+    \item Lamellae reduce effective grain size $\rightarrow$ enhanced stability
+  \end{itemize}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.55\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{exsolution.pdf}
+  \caption{a) AFM of magnetite in pyroxene. b) MFM of domains.
+    c) TEM of hematite lamellae. d) Titanohematite lamellae.}
+\end{figure}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Ternary Diagram for Iron-Oxides}
+
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+  \item Apices: Fe$^{2+}$, Fe$^{3+}$, Ti$^{4+}$
+  \item Solid arrows: increasing Ti substitution
+  \begin{itemize}
+    \item $x$: Ti in titanomagnetites
+    \item $y$: Ti in titanohematites
+  \end{itemize}
+  \item Dashed arrows: direction of increasing oxidation ($z$)
+  \item $x,y$ range from 0 to 1
+\end{itemize}
+\end{column}
+
+\begin{column}{0.55\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.75\textwidth]{tern.pdf}
+  \caption{Fe$^{2+}$--Fe$^{3+}$--Ti$^{4+}$ ternary diagram showing titanomagnetite and titanohematite series.}
+\end{figure}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ==================================================================
+\section{Titanomagnetites}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Titanomagnetite Structure}
+
+\begin{itemize}
+  \item Magnetite (Fe$_3$O$_4$): inverse spinel (AB$_2$O$_4$)
+  \item O atoms form FCC lattice; cations in tetrahedral (A) and octahedral (B) sites
+  \item Cation distribution: Fe$^{3+}|$Fe$^{3+}$Fe$^{2+}|$O$_4$
+  \item A and B sublattices coupled \textbf{antiparallel} $\rightarrow$ ferrimagnetic
+  \item Net moment: $(9-5)=4\;m_b$ per molecule
+  \item Ti$^{4+}$ substitution:
+\end{itemize}
+
+\vspace{0.3em}
+\centering
+\begin{tabular}{ccc}
+  \toprule
+  & Magnetite ($x=0$) & Ulv\"ospinel ($x=1$) \\
+  \midrule
+  Structure & Fe$^{3+}|$Fe$^{3+}$Fe$^{2+}|$O$_4$ & Fe$^{2+}|$Fe$^{2+}$Ti$^{4+}|$O$_4$ \\
+  Behavior & Ferrimagnetic & Antiferromagnetic \\
+  \bottomrule
+\end{tabular}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Effect of Ti Substitution on Titanomagnetites}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{X.pdf}
+  \caption{Variation with Ti substitution ($x$): a) Saturation magnetization decreases.
+    b) Cell size increases. c) Curie temperature decreases.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Titanomagnetite: Key Points}
+
+\begin{itemize}
+  \item \textbf{Occurrences}: primary in igneous rocks; detrital in sediments; biogenic; authigenic
+  \item Large $M_s$ $\rightarrow$ shape anisotropy dominates for even slight non-equancy ($\sim$10\%)
+  \item \textbf{Verwey transition} ($\sim$120\,K): abrupt loss of magnetization
+  \begin{itemize}
+    \item Diagnostic for magnetocrystalline-anisotropy-dominated remanence
+    \item Sensitive to oxidation; suppressed by maghemitization
+  \end{itemize}
+  \item Natural impurities (Al$^{3+}$, Mg$^{2+}$, Cr) also affect properties
+  \begin{itemize}
+    \item 0.1 Al$^{3+}$ $\rightarrow$ 25\% reduction in $M_s$, $\sim$50$^{\circ}$C drop in $T_c$
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% ==================================================================
+\section{Hematite--Ilmenite Series}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Hematite ($\alpha$Fe$_2$O$_3$)}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{hematite.pdf}
+  \caption{a) Kidney ore hematite. b--c) Crystal structure (corundum-type);
+    $c$-axis perpendicular to basal plane.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Hematite Properties}
+
+\begin{itemize}
+  \item Corundum structure, rhombohedral, pseudocleavage $\perp$ $c$-axis
+  \item \textbf{Antiferromagnetic} with weak parasitic ferromagnetism
+  \begin{itemize}
+    \item Spin-canting or defect ferromagnetism
+  \end{itemize}
+  \item N\'eel temperature $\approx$ 685$^{\circ}$C
+  \item \textbf{Morin transition} ($\sim$-10$^{\circ}$C):
+  \begin{itemize}
+    \item Above: magnetization in basal plane
+    \item Below: spin-canting disappears; magnetization $\parallel$ $c$-axis
+    \item Most low-T hematites dominated by defect moments $\rightarrow$ no Morin transition observed
+  \end{itemize}
+  \item Dominates magnetic properties of \textbf{red beds}
+  \item Very high coercivity; very low $M_s$ ($\sim$0.4 Am$^2$kg$^{-1}$)
+\end{itemize}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Ti Substitution in Titanohematites}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{hemY.pdf}
+  \caption{a) Saturation magnetization vs.\ $y$: ferrimagnetic above $y\approx0.45$.
+    b) N\'eel temperature decreases with Ti substitution.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Self-Reversal in Titanohematites}
+
+\begin{itemize}
+  \item For intermediate $y$, exsolution produces Ti-rich and Ti-poor lamellae
+  \item Ti-poor bands: lower $M_s$, higher $T_N$ $\rightarrow$ magnetize first
+  \item Ti-rich bands: higher $M_s$, lower $T_N$ $\rightarrow$ magnetize later in the demagnetizing field of Ti-poor bands
+  \item Result: Ti-rich bands acquire remanence \textbf{antiparallel} to applied field
+  \item Because Ti-rich bands have higher $M_s$, net NRM is \textbf{self-reversed}
+  \item Fortunately very rare in nature
+\end{itemize}
+
+\end{frame}
+
+% ==================================================================
+\section{Oxidation of (Titano)magnetites}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Low-Temperature Oxidation to (Titano)maghemite}
+
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+  \item Single-phase spinel $\rightarrow$ cation-deficient spinel
+  \item Fe$^{2+}$ diffuses to surface, converts to Fe$^{3+}$
+  \item Consequences of increasing $z$:
+  \begin{itemize}
+    \item $M_s$ decreases
+    \item Cell size shrinks
+    \item $T_c$ increases
+    \item Characteristic surface cracking
+  \end{itemize}
+  \item Maghemite ($\gamma$Fe$_2$O$_3$) is metastable
+  \item Inverts to hematite ($\alpha$Fe$_2$O$_3$) by $\sim$350$^{\circ}$C
+\end{itemize}
+\end{column}
+
+\begin{column}{0.55\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{Z.pdf}
+  \caption{Oxidation ($z$) effects on TM60: a) $M_s$, b) cell size, c) $T_c$.
+    Inset: cracking from volume change.}
+\end{figure}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Verwey Transition Suppression by Maghemitization}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{suppress.pdf}
+  \caption{a) Saturation remanence warming curve for stoichiometric 37\,nm magnetite
+    showing the Verwey transition. b) Partially oxidized magnetite: transition suppressed.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Deuteric Oxidation}
+
+\begin{itemize}
+  \item High-temperature oxidation during initial cooling of lava
+  \item Titanomagnetite + O$_2$ $\rightarrow$ low-Ti magnetite + ilmenite intergrowths
+  \item Reaction: Fe$_2$TiO$_4$ + O$_2$ $\rightleftharpoons$ Fe$_3$O$_4$
+  \item Explains why ulv\"ospinel--magnetite intergrowths are rare despite solid solution
+  \item Distinguishes from \textbf{maghemitization} (low-T, single-phase oxidation)
+\end{itemize}
+
+\end{frame}
+
+% ==================================================================
+\section{Iron-Oxyhydroxides and Iron-Sulfides}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Goethite, Greigite, and Pyrrhotite}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{minerals.pdf}
+  \caption{a--b) Goethite photo and crystal structure.
+    c--d) Greigite photo and structure.
+    e--f) Pyrrhotite photo and structure.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Goethite ($\alpha$FeOOH)}
+
+\begin{itemize}
+  \item Most common magnetic iron-oxyhydroxide
+  \item Antiferromagnetic with \textbf{defect magnetization}
+  \item Forms as weathering product or direct precipitate
+  \item Metastable: dehydrates to hematite by $\sim$325$^{\circ}$C
+  \item Very high coercivity but low $T_N$ ($\sim$100--150$^{\circ}$C)
+\end{itemize}
+
+\vspace{1em}
+
+\textbf{Iron-sulfides} (greigite Fe$_3$S$_4$, pyrrhotite Fe$_7$S$_8$):
+\begin{itemize}
+  \item Ferrimagnetic; occur in \textbf{reducing environments}
+  \item Both tend to oxidize to iron oxides + paramagnetic pyrite
+  \item Greigite: max unblocking $T \approx 330^{\circ}$C
+\end{itemize}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Pyrrhotite Thermomagnetic Behavior}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{pyrrhotiteT.pdf}
+  \caption{a) Low-$T$ transition in monoclinic pyrrhotite ($\sim$35\,K).
+    Thermomagnetic curves for b) monoclinic ($T_c\approx325^{\circ}$C),
+    c) hexagonal (peak near 200$^{\circ}$C), d) mixture.}
+\end{figure}
+
+\end{frame}
+
+% ==================================================================
+\section{FeTi Oxides in Igneous Rocks}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{FeTi Oxides in Igneous Rocks}
+
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+  \item Composition depends on bulk chemistry, $f$O$_2$, cooling rate
+  \item More abundant in mafic (basalts) than silicic (rhyolites) lavas
+  \item Ti content generally lower in more silicic melts
+  \item Tholeiitic basalts: $0.5<x<0.8$; typically TM60
+  \item Rhombohedral phases: $0.05<y<0.3$
+  \item Slowly cooled rocks: exsolution or deuteric oxidation
+  \item Rapidly quenched: metastable compositions preserved
+\end{itemize}
+\end{column}
+
+\begin{column}{0.55\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{igneous.pdf}
+  \caption{FeTi oxide compositions in igneous rocks.
+    Black lines: titanomagnetite; red dashed: hemoilmenite.}
+\end{figure}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ==================================================================
+\section{Magnetic Mineralogy of Sediments}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Sedimentary Magnetic Mineralogy}
+
+\begin{itemize}
+  \item Igneous rocks are the ultimate source, but biological and diagenetic processes modify the minerals
+  \item Detrital (titano)magnetite may alter under changed pH/redox conditions
+  \item With depth: organic carbon breakdown $\rightarrow$ reducing conditions
+  \begin{itemize}
+    \item Magnetite dissolution
+    \item Authigenic sulfide production
+    \item Decreasing susceptibility, IRM, ARM with depth
+  \end{itemize}
+  \item A virtual ``rainbow'' of magnetic mineralogies in sediments
+\end{itemize}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Biogenic Magnetite}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{bacteria.pdf}
+  \caption{a) Intact magnetosome in a living magnetotactic bacterium.
+    b) Magnetosome chains recovered from ODP Site 1006D, Bahamas.}
+\end{figure}
+
+\begin{itemize}
+  \item Magnetotactic bacteria produce single-domain magnetite
+  \item Sizes and shapes fall in the SD range on the Evans diagram
+  \item Common in sediments; role in NRM still poorly understood
+\end{itemize}
+
+\end{frame}
+
+% ==================================================================
+\section{Identifying Magnetic Minerals}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Diagnostic Tools: Thermomagnetic Curves \& Microprobe}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{microprobe.pdf}
+  \caption{a) Thermomagnetic run: $M/M_0$ vs.\ $T$ (red = heating, blue = cooling).
+    b) Electron microprobe data on TiO$_2$--FeO--Fe$_2$O$_3$ ternary diagram.}
+\end{figure}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Curie Temperature as a Diagnostic}
+
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\begin{itemize}
+  \item Curie (or N\'eel) temperature is a primary identifier
+  \item Key values:
+  \begin{itemize}
+    \item Magnetite: 580$^{\circ}$C
+    \item Hematite ($T_N$): 675$^{\circ}$C
+    \item TM60: 150$^{\circ}$C
+    \item Goethite ($T_N$): 100--150$^{\circ}$C
+    \item Pyrrhotite: $\sim$325$^{\circ}$C
+    \item Greigite: $\sim$330$^{\circ}$C
+  \end{itemize}
+  \item Coercivity spectra provide additional constraints
+\end{itemize}
+\end{column}
+
+\begin{column}{0.45\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{problem1.pdf}
+  \caption{Curie temperature curves for two samples A and B.}
+\end{figure}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+% ==================================================================
+\section{Summary}
+% ==================================================================
+
+% ------------------------------------------------------------------
+\begin{frame}{Key Mineral Properties}
+
+\centering
+\small
+\begin{tabular}{lccc}
+  \toprule
+  \textbf{Mineral} & \textbf{$T_c$ or $T_N$} & \textbf{$M_s$ (Am$^2$kg$^{-1}$)} & \textbf{Type} \\
+  \midrule
+  Magnetite       & 580$^{\circ}$C  & 92   & Ferrimagnetic \\
+  Maghemite       & 590--675$^{\circ}$C & 74   & Ferrimagnetic \\
+  TM60            & 150$^{\circ}$C  & 24   & Ferrimagnetic \\
+  Hematite        & 675$^{\circ}$C  & 0.4  & Canted AFM \\
+  Goethite        & 100--150$^{\circ}$C & $<$1 & Defect AFM \\
+  Pyrrhotite      & $\sim$325$^{\circ}$C & 0.4--20 & Ferrimagnetic \\
+  Greigite        & $\sim$330$^{\circ}$C & $\sim$25  & Ferrimagnetic \\
+  \bottomrule
+\end{tabular}
+
+\vspace{1em}
+
+\textbf{Key diagnostic transitions:}
+\begin{itemize}
+  \item Verwey transition ($\sim$120\,K) $\rightarrow$ magnetite (suppressed by oxidation)
+  \item Morin transition ($\sim$263\,K) $\rightarrow$ hematite
+  \item 35\,K transition $\rightarrow$ monoclinic pyrrhotite
+\end{itemize}
+
+\end{frame}
+
+% ------------------------------------------------------------------
+\begin{frame}{Chapter Summary}
+
+\begin{enumerate}
+  \item \textbf{Titanomagnetites} (Fe$_{3-x}$Ti$_x$O$_4$): Ti substitution decreases $M_s$ and $T_c$, increases cell size
+  \item \textbf{Titanohematites} (Fe$_{2-y}$Ti$_y$O$_3$): transition from canted AFM to ferrimagnetic at $y\approx0.45$; can self-reverse
+  \item \textbf{Oxidation}: converts magnetite $\rightarrow$ maghemite (increases $T_c$, decreases $M_s$, suppresses Verwey transition)
+  \item \textbf{Deuteric oxidation}: high-$T$ process producing magnetite + ilmenite from titanomagnetite
+  \item \textbf{Goethite}: low $T_N$, high coercivity; dehydrates to hematite
+  \item \textbf{Iron-sulfides}: ferrimagnetic in reducing environments; diagnostic thermomagnetic signatures
+  \item \textbf{Sediments}: complex mineralogy shaped by biology, diagenesis, and redox conditions
+\end{enumerate}
+
+\end{frame}
+
+\end{document}

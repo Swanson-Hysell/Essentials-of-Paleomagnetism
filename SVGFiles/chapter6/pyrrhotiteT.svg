@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="709.29333"
+   height="222.93333"
+   viewBox="0 0 709.29333 222.93333"
+   sodipodi:docname="temp.pdf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="709.29333"
+       height="222.93333"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <g
+       id="group-R5">
+      <path
+         id="path2"
+         d="M 1779.09,353.148 H 202.613 V 1659.03 H 1779.09 Z"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path3"
+         d="M 464.961,411.969 V 358.641"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path4"
+         d="M 724.961,408.641 V 355.309"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path5"
+         d="m 984.961,405.309 v -53.34"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path6"
+         d="m 1238.3,405.309 v -53.34"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path7"
+         d="M 1498.3,401.969 V 348.641"
+         style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <path
+         id="path8"
+         d="m 238.723,1549.42 c 106.238,-207.45 56.238,-647.451 367.722,-633.252 19.754,-1.563 44.36,-4.637 74.868,-10.047 152.539,-27.07 452.537,-112.668 1030.317,-360.82"
+         style="fill:none;stroke:#ff1f37;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <text
+         id="text8"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,26.4396,196.44787)"><tspan
+           id="tspan8"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">0             100            200            300</tspan><tspan
+           id="tspan9"
+           style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="42.666801"
+           y="12.6672">Temperature (K)</tspan></text>
+      <text
+         id="text9"
+         xml:space="preserve"
+         transform="matrix(0,-1.3333333,1.3333333,0,10.440107,158.22653)"><tspan
+           id="tspan10"
+           style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">IRM (arbitrary units)</tspan></text>
+      <path
+         id="path10"
+         d="m 3121.99,335.371 v -35 m 1026.67,41.66 v -35 m 780,46.668 v -35 m 220,30 v -35 m -420,35 v -35 M 4502,352.031 v -35 m -580,25 v -35 m -220,31.668 v -35 m -226.67,35 v -35 m -566.66,28.332 v -35 m -220,35 v -35 m -233.34,41.668 v -35 m 2766.67,7.5 H 4288.67 V 1644.54 H 5222 V 311.199 Z M 4195.33,304.531 H 3262 V 1637.87 h 933.33 V 304.531 Z m -1046.66,-6.66 H 2215.34 V 1631.2 h 933.33 V 297.871 Z"
+         style="fill:none;stroke:#231f20;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <text
+         id="text10"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,299.81333,202.77347)"><tspan
+           id="tspan11"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">  100          300         </tspan><tspan
+           id="tspan12"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="108"
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3.56078"
+           y="-2">  100          300           100          300         </tspan><tspan
+           id="tspan13"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="78.671997"
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0.0088037103"
+           y="12">Temperature (</tspan><tspan
+           id="tspan14"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="146.313"
+           y="8">o</tspan><tspan
+           id="tspan15"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="151.57784"
+           y="12">C)</tspan></text>
+      <text
+         id="text15"
+         xml:space="preserve"
+         transform="matrix(0,-1.3333333,1.3333333,0,277.59467,193.87707)"><tspan
+           id="tspan16"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Magnetization (arbitrary units)</tspan></text>
+      <path
+         id="path16"
+         d="m 4942,358.699 c 0,0 20.01,-34.16 53.34,-27.5 M 4308.67,1271.2 c 80.34,-32.82 143.8,-83.44 208.32,-138.35 41.37,-35.2 140.73,-150.221 197.35,-140.639 3.85,41.939 23.42,64.289 27.66,105.659 3.75,36.58 -11.36,76.13 20,100.62 20.15,-26.76 27.27,-73.24 40,-107.29 0,0 120,-685.009 140,-732.501 m -1653.33,25.832 c 0,0 266.67,-40 380,-26.66 0,0 66.66,-20 73.33,479.996 0,0 -6.67,26.672 20,113.332 0,0 13.34,-46.66 73.34,-580 0,0 -13.34,-33.34 146.66,-26.668 M 2242,1371.2 c 0,0 620.01,-406.661 686.67,-1020.001 0,0 -33.33,-13.34 60,-26.668"
+         style="fill:none;stroke:#e53430;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(0.13333333,0,0,-0.13333333,0,222.93333)" />
+      <text
+         id="text16"
+         xml:space="preserve"
+         transform="matrix(1.3333333,0,0,1.3333333,45.595333,19.658667)"><tspan
+           id="tspan17"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">a)</tspan><tspan
+           id="tspan18"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="196"
+           dx="0 0 93.0793 0 93.2033"
+           y="2.6640601">b)c)d)</tspan><tspan
+           id="tspan19"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="219"
+           y="15.16406">Mono-</tspan><tspan
+           id="tspan20"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="219"
+           y="27.164061">   clinic</tspan><tspan
+           id="tspan21"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="314.5"
+           y="19.171869">Hexagonal</tspan><tspan
+           id="tspan22"
+           style="font-variant:normal;font-weight:normal;font-size:10px;font-family:'Source Sans Pro';writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="432"
+           y="12.67187">Mixed</tspan></text>
+    </g>
+  </g>
+</svg>
